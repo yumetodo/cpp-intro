@@ -1,0 +1,28 @@
+{
+  "name": "cpp-intro",
+  "version": "1.0.0",
+  "description": "まだ書きかけ。",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "textlint --rule ja-no-abusage -f unix *.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yumetodo/cpp-intro.git"
+  },
+  "keywords": [
+    "cpp"
+  ],
+  "author": "EzoeRyou",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/yumetodo/cpp-intro/issues"
+  },
+  "homepage": "https://github.com/yumetodo/cpp-intro#readme",
+  "devDependencies": {
+    "textlint": "^11.2.5",
+    "textlint-rule-ja-no-abusage": "^1.2.2"
+  }
+}
